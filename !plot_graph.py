@@ -12,10 +12,11 @@ ax.set_xlabel("val",fontsize=24)
 ax.set_ylabel("val*val",fontsize=24)
 ax.tick_params(axis="both",labelsize=8)
 
-ax.plot(x, y,linewidth=1)#线段绘制
-#ax.scatter(x,y,s=10)#描点绘制
+#ax.plot(x, y,linewidth=1)#线段绘制
+ax.scatter(x,y,s=10,c=y,cmap=pyplot.cm.Greens)#描点绘制
 ax.axis([0,1100,0,1100000])
 
 print(pyplot.style.available)
 
-pyplot.show()
+#pyplot.show()
+pyplot.savefig("square_fig3.png")

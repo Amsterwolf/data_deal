@@ -2,7 +2,7 @@ import matplotlib.pyplot as pyplot
 
 pyplot.style.use("seaborn")
 fig,ax=pyplot.subplots()
-ax.scatter(2,4,s=2000)
+ax.scatter(2,4,s=2000,c='red')
 
 ax.set_title("point fig",fontsize=22)
 ax.set_xlabel("x",fontsize=22)
