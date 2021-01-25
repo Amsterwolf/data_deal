@@ -43,5 +43,5 @@ fig=px.scatter(
     hover_name='命名',
     )
 #fig.write_html('global_eq_24h.html')
-fig.write_html('global_eq_30d.html')
+fig.write_html('global_eq_30d.html')#生成html格式的图表
 #fig.show()
