@@ -2,6 +2,8 @@ from die import Die
 from plotly.graph_objs import Bar,Layout
 from plotly import offline
 
+'''模拟骰子结果，绘制条形图'''
+
 die=Die()
 die2=Die(10)
 alist=[die.roll()+die2.roll() for i in range(3000)]#列表解析

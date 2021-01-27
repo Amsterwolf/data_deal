@@ -1,6 +1,9 @@
 import json
 import plotly.express as px
 import pandas as pd
+
+'''由json格式数据绘制折线图2'''
+
 filename='data2/eq_data_30_day_m1.json'
 with open(filename) as f:
     all_eq_data=json.load(f)
